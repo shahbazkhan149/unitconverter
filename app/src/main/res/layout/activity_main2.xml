@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFDFF"
+    tools:context=".MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/fragonebtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:cornerRadius="100dp"
+        android:backgroundTint="@color/primary"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Length">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fragtwobtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:cornerRadius="100dp"
+        android:backgroundTint="@color/Secondary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Weight">
+
+    </Button>
+
+
+</RelativeLayout>
